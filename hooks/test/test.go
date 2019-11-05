@@ -4,10 +4,9 @@
 package test
 
 import (
+	"github.com/TykTechnologies/logrus"
 	"io/ioutil"
 	"sync"
-
-	"github.com/sirupsen/logrus"
 )
 
 // Hook is a hook designed for dealing with logs in test scenarios.
